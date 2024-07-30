@@ -40,4 +40,8 @@ dotenv.config();
   ],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    console.log('Database connection established successfully');
+  }
+}
